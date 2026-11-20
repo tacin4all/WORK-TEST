@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="ms" data-theme="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rekod Rokok Petronas Haji Said</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#f2f6f5;--card:#fff;--ink:#102a28;--mute:#5d7573;--line:#d5e1df;--teal:#00857f;--teal-ink:#fff;--amber:#b87400;--amber-bg:#fff2d6;--head:#e3eeec;--inp:#f8fbfa;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1f1e;--card:#14302e;--ink:#e6f2f0;--mute:#8fb0ac;--line:#24433f;--teal:#2fc4bb;--teal-ink:#06201e;--amber:#ffc04d;--amber-bg:#3d2f10;--head:#1a3b38;--inp:#0f2624;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d1f1e;--card:#14302e;--ink:#e6f2f0;--mute:#8fb0ac;--line:#24433f;--teal:#2fc4bb;--teal-ink:#06201e;--amber:#ffc04d;--amber-bg:#3d2f10;--head:#1a3b38;--inp:#0f2624;color-scheme:dark}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 Barlow,system-ui,sans-serif;min-height:100%;overflow-x:hidden;max-width:100vw}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--teal);z-index:10}
+header{background:var(--teal);color:var(--teal-ink);padding:14px 14px 12px;position:sticky;top:env(safe-area-inset-top,0px);z-index:5}
+h1{font:700 24px/1 'Barlow Condensed',sans-serif;margin:0;letter-spacing:.2px}
+.sub{font-size:13px;opacity:.85;margin-top:3px}
+.bar{display:flex;gap:8px;margin-top:10px;align-items:center}
+.bar input[type=date]{flex:1;min-width:0}
+input{font:inherit;color:var(--ink)}
+input[type=date],input[type=text],input[type=search]{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+.st{font-size:11px;min-width:0;white-space:nowrap;text-align:right}
+.bar .btn{flex-shrink:0}
+nav{display:flex;gap:6px;padding:10px 12px 0}
+nav button{flex:1;padding:10px 0;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;font:600 15px Barlow,sans-serif}
+nav button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+:focus-visible{outline:3px solid var(--amber);outline-offset:1px}
+main{padding:10px 12px 40px;max-width:760px;margin:0 auto}
+.tools{display:flex;gap:8px;margin-bottom:10px}
+.tools input{flex:1;min-width:0}
+.btn{border:0;background:var(--teal);color:var(--teal-ink);border-radius:8px;padding:8px 12px;font:600 14px Barlow,sans-serif}
+.kp{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.kp label{font-weight:600}
+.kp input{flex:1;min-width:0}
+.tm{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;margin-bottom:10px}
+.tm>div{min-width:0;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px}
+.tm label{display:block;font-size:12px;font-weight:600;color:var(--mute);margin-bottom:4px}
+.tm .r{display:flex;gap:6px;min-width:0}
+.tm .btn{flex:none;padding:7px 8px;font-size:13px}
+.tm input{flex:1 1 0;width:0;min-width:0;max-width:100%;min-height:34px;-webkit-appearance:none;appearance:none;background:var(--inp);border:1px solid var(--line);border-radius:6px;padding:7px 4px;font-size:14px;text-align:center}
+.grp{background:var(--card);border:1px solid var(--line);border-radius:10px;margin-bottom:10px;overflow:hidden}
+.grp h2{margin:0;padding:7px 10px;background:var(--head);font:700 17px 'Barlow Condensed',sans-serif;display:flex;justify-content:space-between}
+.grp h2 span{font:600 13px Barlow,sans-serif;color:var(--mute)}
+.cols,.row{display:grid;grid-template-columns:minmax(0,1fr) repeat(3,50px) 44px;gap:4px;align-items:center;padding:4px 8px}
+.sum .cols,.sum .row{grid-template-columns:minmax(0,1fr) repeat(4,44px)}
+.cols{font-size:12px;color:var(--mute);text-align:center;font-weight:600}
+.cols b:first-child{text-align:left}
+.row{border-top:1px solid var(--line)}
+.nm{font-size:13px;line-height:1.2;min-width:0}
+.nm small{display:block;color:var(--mute);font-size:11px}
+.row input{width:100%;padding:7px 2px;text-align:center;border:1px solid var(--line);border-radius:6px;background:var(--inp);font-size:15px}
+.row input::placeholder{color:var(--mute);opacity:.7}
+.sold{text-align:center;font-weight:700}
+.sold.neg{background:var(--amber-bg);color:var(--amber);border-radius:6px;padding:4px 0}
+.sum .row span{text-align:center}
+.tot{font-weight:700;background:var(--head)}
+.empty{color:var(--mute);text-align:center;padding:30px 0}
+@media (max-width:380px){.cols,.row{grid-template-columns:minmax(0,1fr) repeat(3,44px) 38px;gap:3px;padding:4px 6px}.sum .cols,.sum .row{grid-template-columns:minmax(0,1fr) repeat(4,38px)}}
+#print{display:none}
+#print table{border-collapse:collapse;width:100%;font-size:8px}
+#print th,#print td{border:1px solid #000;padding:1px 3px;text-align:center;color:#000}
+#print td:nth-child(-n+3){text-align:left}
+#print .sm{width:60%;margin-top:10px;font-size:10px;break-inside:avoid}
+#print .sm td{text-align:center}
+#print h2{margin:0 0 4px;font-size:14px}#print p{margin:0 0 6px;font-size:11px}
+@media print{@page{size:A4 landscape;margin:8mm}body::before,header,nav,main{display:none!important}body{background:#fff!important;color:#000!important}#print{display:block!important}thead{display:table-header-group}tr{break-inside:avoid}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Rekod Rokok</h1>
+  <div class="sub">Petronas Haji Said</div>
+  <div class="bar"><input type="date" id="date" aria-label="Tarikh"><span class="st" id="st"></span><button class="btn" id="prt" style="background:var(--card);color:var(--ink)">Cetak</button></div>
+</header>
+<nav id="tabs"></nav>
+<main id="app"></main>
+<div id="print"></div>
+<script>
+const RAW=`MARLBORO|GOLD (3.0 ORIGINAL) KS BOS|76239878
+MARLBORO|RED BOX PACK|76164217
+MARLBORO|MENTHOL (2.0) MNT KS BOS|76239427
+MARLBORO|BLMEN2.0 MNT KS BOS|95508788
+MARLBORO|ICE BLAST MEGA MNT KS BOS|95509839
+MARLBORO|DOUBLE BURST 2.5 SEAL|45163012
+MARLBORO|SUMMER SPLASH|7622100700364
+MARLBORO|TROPICAL SPLASH|7622100698937
+CHESTERFIELD|RED 4.0|88823386
+CHESTERFIELD|BLUE 4.0|88823393
+CHESTERFIELD|CHARCOAL FILTER KS|9555277315254
+CHESTERFIELD|MENTHOL 4.0|95510354
+CHESTERFIELD|PURPLE CAPSULE KS BOS|9555277315094
+BOND STREET|RED KS BOS|9555277316251
+BOND STREET|BLUE KS BOS|9555277316275
+SAM A|RED PACK UPGRADE|89990568
+SAM A|MTL PACK UPGRADE|89990469
+ROTHMANS|KOOL HOKKAIDO MINT|9556109108358
+ROTHMANS|PURPLE|9556109108310
+ROTHMANS|CHARCOAL|9556109108006
+ROTHMANS|MENTHOL|9556109108334
+ROTHMANS|BLUE|9556109106712
+ROTHMANS|RED|9556109106330
+DUNHILL|CLASSIC LEP|9556109106958
+DUNHILL|BLUE|9556109109386
+DUNHILL|MENTHOL|9556109109393
+DUNHILL|RED|9556109109171
+DUNHILL|ZEST|9606109109430
+DUNHILL|BOOST|9586109109416
+DUNHILL|MIX|9596109109423
+DUNHILL|SWITCH|9576109109409
+LUCKIES|BLUE|9556109110474
+LUCKIES|RED|9556109110467
+LUCKIES|PURPLE|9556109110726
+LUCKIES|MENTHOL|9556109110719
+PETER STUYVESANT|MENTHOL|9556109110146
+PETER STUYVESANT|REMIX VIBE|9556109107023
+PETER STUYVESANT|LEP BLUE|9556109105722
+PETER STUYVESANT|LEP RED|9556109105715
+KYO|FULL FLAVOR|9556109110160
+KYO|SWITCH|9556109110054
+KYO|SILVER|9556109109362
+KYO|ORIGINAL|9556109109355
+BENSON & HEDGES|STANDARD|95502397
+MEVIUS|ORIGINAL BLUE (BOX)|49401196
+MEVIUS|SKY BLUE KS (BOX)|4902210200804
+MEVIUS|WIND BLUE (BOX)|40329383
+MEVIUS|MENTHOL WHITE (BOX)|01239730
+MEVIUS|LBS YELLOW|95510569
+MEVIUS|MENTHOL (BOX)|01232135
+MEVIUS|MENTHOL DUO (BOX)|4033100054556
+MEVIUS|KIMAWI BOX|955900301326
+WINSTON|DUO BERRY (BOX)|4033100034268
+WINSTON|KS RED (BOX)|01231233
+WINSTON|BLUE (BOX)|01231932
+LD|RED (BOX)|8885004830004
+LD|RED 100S|9555900301227
+LD|BLUE (BOX)|8885004830028
+LD|GREEN (BOX)|8885004830042
+LD|MENTHOL CAPSULE (ZOOM)|9555900300121
+LD|PURPLE (BOX)|9555900300565
+TEREA|RUSSET|9555277310570
+TEREA|SIENNA|9555277316602
+TEREA|AMBER|9555277316510
+TEREA|BLACK GREEN|7622100699521
+TEREA|BLACK PURPLE|7622100701637
+TEREA|BLACK YELLOW|7622100701620
+TEREA|BLUE|9555277316695
+TEREA|TURQUOISE|9555277316572
+TEREA|BLUEBERRY|9555277316664
+TEREA|ZING WAVE|9555277316633
+TEREA|PASSION FRUIT CAPSULE|7622100701064
+TEREA|WATERMELON CAPSULE|7622100701019
+TEREA|STRAWBERRY BASIL CAPSULE|7622100702672
+TEREA|GRAPE CAPSULE|7622100467281
+TEREA|RASPBERRY ROSE CAPSULE|7622100467465
+TEREA|KRETEK|7622100467199
+TEREA|KRETEK MULBERRY|7622100467229
+FIIT|REGULAR|7622100698388
+FIIT|ALPINE|7622100698326
+FIIT|CRISP|7622100698418
+VEEBA|NOW TOBACCO|7622100466970
+VEEBA|NOW MINT|7622100467014
+VEEBA|NOW APPLE|7622100466932
+VEEBA|NOW LEMON LIME|7622100466895
+VEEBA|NOW GRAPE|7622100466918
+VEEBA|NOW PASSION FRUIT KIWI|7622100466956
+VEEBA|NOW MANGO|7622100466871
+VEEBA|NOW WATERMELON|7622100466994
+VEEBA|PODS TOBACCO|7622100466697
+VEEBA|PODS MINT|7622100466727
+VEEBA|PODS PASSKIWIGUAVA|7622100466673
+VEEBA|PODS APPLE|7622100466789
+VEEBA|PODS LEMON LIME|7622100466741
+VEEBA|PODS GRAPE|7622100466765
+VEEBA|PODS WATERMELON|7622100466666
+VEEBA|PODS MANGO|7622100466802
+HEET|BLACK GREEN SELECTION|7622100698685
+HEET|TURQUOISE SELECTION|9555277320012`;
+const P=RAW.split('\n').map(l=>{const [b,t,c]=l.split('|');return{b,t,c}});
+const G=[];P.forEach(p=>{let g=G.find(x=>x.b===p.b);if(!g)G.push(g={b:p.b,items:[]});g.items.push(p)});
+const SH=['A','B','C'];
+const $=s=>document.querySelector(s);
+let db=null,dl=null,date='',shift='A',doc={v:{}},prev=null,q='',timer=null;
+
+const iso=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+const dayBefore=s=>{const d=new Date(s+'T12:00:00');d.setDate(d.getDate()-1);return iso(d)};
+const num=x=>(x===undefined||x===''||x===null)?null:Number(x);
+const val=(d,bc,s,f)=>d&&d.v?d.v[bc+'_'+s+f]:undefined;
+
+async function load(d){
+  if(db){try{const s=await db.doc('rekod/'+d).get();return s.exists?{v:{},...s.data()}:{v:{}}}catch(e){}}
+  try{return {v:{},...JSON.parse(localStorage.getItem('rokok:'+d)||'{}')}}catch(e){return{v:{}}}
+}
+async function save(){
+  $('#st').textContent='Menyimpan…';
+  let ok=false;
+  if(db){try{await db.doc('rekod/'+date).set(doc);ok=true}catch(e){}}
+  if(!ok){try{localStorage.setItem('rokok:'+date,JSON.stringify(doc));ok=true}catch(e){}}
+  $('#st').textContent=ok?'Disimpan':'Gagal simpan';
+}
+function queueSave(){clearTimeout(timer);timer=setTimeout(save,600)}
+
+function lastClose(d,bc){
+  for(const s of ['C','B','A']){const c=num(val(d,bc,s,'c'));if(c!==null)return c}
+  return null;
+}
+function effOpen(bc,s){
+  const t=num(val(doc,bc,s,'o'));if(t!==null)return {n:t,typed:true};
+  let c=null;
+  if(s==='A')c=prev?lastClose(prev,bc):null;
+  else c=num(val(doc,bc,s==='B'?'A':'B','c'));
+  return {n:c,typed:false};
+}
+function sold(bc,s){
+  const o=effOpen(bc,s).n,c=num(val(doc,bc,s,'c'));
+  if(o===null||c===null)return null;
+  return o+(num(val(doc,bc,s,'a'))||0)-c;
+}
+const esc=s=>String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const match=p=>!q||(p.b+' '+p.t+' '+p.c).toLowerCase().includes(q);
+
+function tabs(){
+  $('#tabs').innerHTML=SH.map(s=>`<button data-s="${s}" aria-pressed="${shift===s}">Shift ${s}</button>`).join('')+`<button data-s="S" aria-pressed="${shift==='S'}">Ringkasan</button>`;
+}
+function render(){
+  tabs();
+  const app=$('#app');
+  if(shift==='S')return renderSum(app);
+  let h=`<div class="kp"><label for="kp">KP</label><input type="text" id="kp" placeholder="Nama KP shift ${shift}" value="${esc(doc['kp_'+shift]||'')}"></div>
+  <div class="tm"><div><label for="t1">Mula kira</label><div class="r"><input type="time" id="t1" value="${esc(doc['t1_'+shift]||'')}"><button class="btn" data-t="1">Rekod</button></div></div><div><label for="t2">Habis kira</label><div class="r"><input type="time" id="t2" value="${esc(doc['t2_'+shift]||'')}"><button class="btn" data-t="2">Rekod</button></div></div></div>
+  <div class="tools"><input type="search" id="q" placeholder="Cari jenama / barcode" value="${esc(q)}"></div>`;
+  let n=0;
+  G.forEach(g=>{
+    const items=g.items.filter(match);if(!items.length)return;n++;
+    h+=`<section class="grp"><h2>${esc(g.b)}</h2><div class="cols"><b>Jenis</b><b>Open</b><b>Add</b><b>Close</b><b>Jual</b></div>`;
+    items.forEach(p=>{
+      const eo=effOpen(p.c,shift);
+      const v=f=>{const x=val(doc,p.c,shift,f);return x===undefined?'':x};
+      h+=`<div class="row" data-bc="${p.c}"><div class="nm">${esc(p.t)}<small>${p.c}</small></div>
+      <input inputmode="numeric" pattern="[0-9]*" data-f="o" aria-label="Open ${esc(p.t)}" placeholder="${eo.n===null?'':eo.n}" value="${v('o')}">
+      <input inputmode="numeric" pattern="[0-9]*" data-f="a" aria-label="Add ${esc(p.t)}" value="${v('a')}">
+      <input inputmode="numeric" pattern="[0-9]*" data-f="c" aria-label="Close ${esc(p.t)}" value="${v('c')}">
+      <div class="sold"></div></div>`;
+    });
+    h+=`</section>`;
+  });
+  if(!n)h+=`<p class="empty">Tiada produk dijumpai.</p>`;
+  app.innerHTML=h;
+  app.querySelectorAll('.row').forEach(r=>paint(r));
+}
+function paint(r){
+  const s=sold(r.dataset.bc,shift),el=r.querySelector('.sold');
+  el.textContent=s===null?'–':s;
+  el.classList.toggle('neg',s!==null&&s<0);
+}
+function renderSum(app){
+  const tot=[0,0,0];
+  let h=`<div class="tools"><input type="search" id="q" placeholder="Cari jenama / barcode" value="${esc(q)}">${dl?'<button class="btn" id="csv">Muat turun CSV</button>':''}</div><div class="sum">`;
+  G.forEach(g=>{
+    const items=g.items.filter(match);if(!items.length)return;
+    const gt=[0,0,0];let rows='';
+    items.forEach(p=>{
+      const s=SH.map(x=>sold(p.c,x));
+      s.forEach((x,i)=>{if(x!==null){gt[i]+=x;tot[i]+=x}});
+      if(s.every(x=>x===null))return;
+      rows+=`<div class="row"><div class="nm">${esc(p.t)}</div>${s.map(x=>`<span>${x===null?'–':x}</span>`).join('')}<span><b>${s.reduce((a,b)=>a+(b||0),0)}</b></span></div>`;
+    });
+    if(!rows)return;
+    h+=`<section class="grp"><h2>${esc(g.b)}<span>Jumlah ${gt[0]+gt[1]+gt[2]}</span></h2><div class="cols"><b>Jenis</b><b>A</b><b>B</b><b>C</b><b>Jum</b></div>${rows}</section>`;
+  });
+  h+=`<section class="grp"><div class="row tot"><div class="nm">JUMLAH JUALAN (kotak)</div>${tot.map(x=>`<span>${x}</span>`).join('')}<span>${tot[0]+tot[1]+tot[2]}</span></div></section></div>`;
+  if(tot.every(x=>x===0))h=h.replace('</div></section></div>','</div></section></div><p class="empty">Isi Open dan Close pada tab shift untuk lihat jualan.</p>');
+  app.innerHTML=h;
+}
+async function csv(){
+  const L=['Tarikh,Jenama,Jenis,Barcode,A Open,A Add,A Close,A Jual,B Open,B Add,B Close,B Jual,C Open,C Add,C Close,C Jual'];
+  P.forEach(p=>{
+    const c=[date,p.b,p.t,"'"+p.c];
+    SH.forEach(s=>{const o=effOpen(p.c,s).n;c.push(o===null?'':o,val(doc,p.c,s,'a')??'',val(doc,p.c,s,'c')??'',sold(p.c,s)??'')});
+    L.push(c.map(x=>`"${String(x).replace(/"/g,'""')}"`).join(','));
+  });
+  try{await dl.save({filename:'rekod-rokok-'+date+'.csv',data:L.join('\n')})}catch(e){}
+}
+function doPrint(){
+  const [y,m,d]=date.split('-');
+  const z=x=>x==null?'':x;
+  let h=`<h2>REKOD ROKOK – PETRONAS HAJI SAID</h2><p>Tarikh: ${d}/${m}/${y}`+SH.map(s=>` &nbsp;&nbsp; KP ${s}: ${esc(doc['kp_'+s]||'__________')}`).join('')+`</p><table><thead><tr><th rowspan="2">Brand</th><th rowspan="2">Type</th><th rowspan="2">Barcode</th>${SH.map(s=>`<th colspan="4">Shift ${s}</th>`).join('')}</tr><tr>${SH.map(()=>'<th>Open</th><th>Add</th><th>Close</th><th>Jual</th>').join('')}</tr></thead><tbody>`;
+  P.forEach(p=>{
+    h+=`<tr><td>${esc(p.b)}</td><td>${esc(p.t)}</td><td>${p.c}</td>`;
+    SH.forEach(s=>{h+=`<td>${z(effOpen(p.c,s).n)}</td><td>${z(val(doc,p.c,s,'a'))}</td><td>${z(val(doc,p.c,s,'c'))}</td><td>${z(sold(p.c,s))}</td>`});
+    h+='</tr>';
+  });
+  const T=SH.map(s=>P.reduce((a,p)=>a+(sold(p.c,s)||0),0));
+  h+='</tbody></table><table class="sm"><thead><tr><th>Shift</th><th>KP</th><th>Mula kira</th><th>Habis kira</th><th>Total jualan</th></tr></thead><tbody>'+SH.map((s,i)=>`<tr><td>${s}</td><td>${esc(doc['kp_'+s]||'')}</td><td>${doc['t1_'+s]||'--:--'}</td><td>${doc['t2_'+s]||'--:--'}</td><td>${T[i]}</td></tr>`).join('')+`<tr><td colspan="4"><b>TOTAL JUALAN HARIAN</b></td><td><b>${T[0]+T[1]+T[2]}</b></td></tr></tbody></table>`;
+  $('#print').innerHTML=h;
+  try{window.print()}catch(e){}
+}
+async function setDate(d){
+  date=d;$('#st').textContent='';
+  [doc,prev]=await Promise.all([load(d),load(dayBefore(d))]);
+  render();
+}
+document.addEventListener('click',e=>{
+  const b=e.target.closest('#tabs button');
+  if(b){shift=b.dataset.s;render();window.scrollTo(0,0)}
+  if(e.target.id==='csv')csv();
+  if(e.target.id==='prt')doPrint();
+  const tb=e.target.closest('[data-t]');
+  if(tb){const d=new Date(),v=String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0');doc['t'+tb.dataset.t+'_'+shift]=v;$('#t'+tb.dataset.t).value=v;queueSave()}
+});
+document.addEventListener('input',e=>{
+  const t=e.target;
+  if(t.id==='q'){q=t.value.trim().toLowerCase();const pos=t.selectionStart;render();const n=$('#q');n.focus();n.setSelectionRange(pos,pos);return}
+  if(t.id==='kp'){doc['kp_'+shift]=t.value;queueSave();return}
+  if(t.id==='t1'||t.id==='t2'){doc[t.id+'_'+shift]=t.value;queueSave();return}
+  const r=t.closest('.row');
+  if(r&&t.dataset.f){
+    const x=t.value.replace(/[^0-9]/g,'');if(x!==t.value)t.value=x;
+    doc.v[r.dataset.bc+'_'+shift+t.dataset.f]=x;
+    paint(r);queueSave();
+  }
+});
+$('#date').addEventListener('change',e=>{if(e.target.value)setDate(e.target.value)});
+$('#date').value=iso(new Date());
+setDate($('#date').value);
+(async()=>{
+  try{
+    if(window.claude){
+      dl=await claude.use('downloads');
+      db=await claude.use('db');
+      if(db||dl)setDate(date);
+    }
+  }catch(e){}
+})();
+</script>
+</body>
+</html>
